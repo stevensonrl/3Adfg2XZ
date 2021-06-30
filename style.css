@@ -1,0 +1,49 @@
+body{
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+  font-family: 'Courier New', monospace;
+  background-color: black;
+  color: white;
+}
+
+.video-chat{
+  display: table-cell;
+  vertical-align: middle;
+  width: 50%;
+}
+
+#myVidPlayer{
+  width: 100%;
+}
+
+.wrapper {
+  height: 100vh;
+  /*This part is important for centering*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.typing-demo {
+  width: 40ch;
+  animation: typing 5s steps(40), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
