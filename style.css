@@ -3,9 +3,16 @@ body{
   align-items: center;
   text-align: center;
   vertical-align: middle;
-  font-family: 'Courier New', monospace;
   background-color: black;
   color: white;
+}
+
+body.enigma-body{
+  font-family: "Times New Roman", Times, serif;
+}
+
+body.camera-body{
+  font-family: 'Courier New', monospace;
 }
 
 input{
